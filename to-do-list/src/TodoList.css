@@ -1,0 +1,46 @@
+/* TodoList.css */
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 80%; /* Adjust the width as needed */
+}
+
+.todo-list {
+  width: 240%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.todo-list th,
+.todo-list td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.todo-list th {
+  background-color: #f2f2f2;
+}
+
+.todo-list tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate color for even rows */
+}
+
+.todo-list tr:hover {
+  background-color: #e5e5e5; /* Hover color for rows */
+}
+
+.todo-list button {
+  padding: 4px 8px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
